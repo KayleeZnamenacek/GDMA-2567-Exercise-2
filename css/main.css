@@ -23,6 +23,18 @@
     clear: both;
 }
 
+.img-responsive{
+    max-width: 100%;
+}
+
+figure {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+}
+
+
 [class*="col-"] {
     padding: 0 10px;
     margin-bottom: 20px;
@@ -197,5 +209,13 @@
 [class*="col-"] div{
     background-color: blue;
     height: 300px;
+}
+
+#bg-flowers{
+    background-image: url("../img/bg-mountains");
+    background-repeat: no-repeat;
+    height: 300px;
+    background-origin: content-box;
+    background-size: cover ;
 }
 
